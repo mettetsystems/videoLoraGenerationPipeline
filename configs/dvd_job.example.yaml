@@ -1,0 +1,6 @@
+source_disc: 0
+minlength_seconds: 1200
+input_title: title_t00.mkv
+scenedetect:
+  mode: adaptive
+  threshold: null

@@ -1,0 +1,25 @@
+﻿# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+
+# venv
+.venv/
+.env
+
+# OS junk
+.DS_Store
+
+# pipeline outputs (kept only via .gitkeep)
+data/sources/*
+data/scenedetect/*
+data/clips/*
+data/review/*
+!data/**/.gitkeep
+
+# logs/temp
+*.log
+*.tmp
