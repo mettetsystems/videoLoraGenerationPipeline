@@ -37,7 +37,7 @@ foreach ($vid in $videos) {
 
   scenedetect -i $vid.FullName `
     detect-content --threshold $threshold --min-scene-len $min_scene_len `
-    list-scenes --csv $csv
+    list-scenes --output $csv
 
   if ($LASTEXITCODE -ne 0) { Write-Host "Detect failed: $($vid.Name)" -ForegroundColor Red; continue }
 
